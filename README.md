@@ -8,7 +8,7 @@ Documentation : http://awr.pythonanywhere.com/Documentation
 
 # Developed By
 Tushar Verma <br>
-Rishab Agarwal
+Rishabh Agarwal
 
 http://awr.pythonanywhere.com/Aboutus
 
