@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        font-family: sans-serif;
+        background: #1e272e;
+        
+    }
+    
+    .team-section{
+        overflow: hidden;
+        text-align: center;
+        padding: 60px;
+    }
+    .team-section h1{
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        color: white;
+        font-size: 40px;
+    }
+    
+    .ps{
+        margin-bottom: 40px;
+    }
+    .ps a{
+        display: inline-block;
+        margin: 0 30px;
+        width:160px;
+        height: 160px;
+        overflow: hidden;
+        border-radius:50%; 
+    }
+    .ps a img{
+        width: 100%;
+        filter: GRAYSCALE(100%);
+        transition:0.4s all;
+        
+    }
+    .ps a:hover > img{
+    filter: none;
+    }
+    
+    .border{
+        display: block;
+        margin: auto;
+        width:160px;
+        height: 2px;
+        background: #3498db;
+        margin-bottom: 40px;
+    }
+
+    .section{
+        margin:auto;
+        font-size: 20px;
+        color:white;
+        text-align: center;
+        height: 0;
+        overflow: hidden;
+        
+    }
+    span{
+        
+        font-size: 16px;
+        color:white;
+        
+        
+    }
+    .section:target{
+        height: auto;
+        
+    }
+    
+    .name{
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+
+    .mycon{
+        margin-top: 40px;
+    }
+
+    .mycon a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.mycon a:hover
+{
+    
+    color: #ffc107;
+}
+    </style>
+  <title>About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="team-section">
+        <a href="/"> <image src="/static/banned.png" width="70px" height="70px"></a>
+    <h1>Developed By</h1>
+    <span class="border"></span>
+<div class="container-fluid">
+  
+  <div class="row">
+<div class="ps">
+    <a href="#p1">
+        <img src="/static/tushar.jpg" alt="Tushar">
+        
+        </a>
+    <a href="#p2"><img src="/static/rishabh.jpg" alt="Rishabh"></a>
+  </div>
+</div>
+</div>
+<center>
+<div class="section" id="p1">
+        <span class="name"><a href="https://www.linkedin.com/in/tushar-verma-047329154/"><i class="fab fa-linkedin"></i>   Tushar
+    </a>
+    </span>
+    
+    <span class="border"></span>
+    </div>
+        
+    <div class="section" id="p2">
+        <span class="name"><a href="https://www.linkedin.com/in/rishabh-agarwal-ba4128169/"><i class="fab fa-linkedin"></i>   Rishabh
+    </a></span>
+    <span class="border"></span>
+        </div>
+</center>
+ <div>  
+     <center>
+     <span>
+         Abusive Word Remover is an API that provides an easy way to filter the abusive words. It can be used on Internet Forums or chat rooms that automatically scans user's comments and messages as they are submitted and automatically changes or censors particular word
+     </span>   
+     <div class="mycon">
+     <a href="#">© 2018 Copyright : Tushar Verma</a>
+     </div>
+     </center>
+</div>
+</body>
+</html>
