@@ -3,11 +3,11 @@ Abusive Word Remover is an API that provides an easy way to filter the abusive w
 
 # Useful Links
 
-Live : http://awr.pythonanywhere.com/
+Live : http://awr.pythonanywhere.com/ <br>
 Documentation : http://awr.pythonanywhere.com/Documentation
 
 # Developed By
-Tushar Verma
+Tushar Verma <br>
 Rishab Agarwal
 
 http://awr.pythonanywhere.com/Aboutus
