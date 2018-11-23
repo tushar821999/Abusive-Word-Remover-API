@@ -23,9 +23,10 @@ def filtered():
         print(paragraph)
         words = paragraph.split("%20")
         result = []
+        awlist = ["idiot","Idiot","IDIOT","whore","Whore","WHORE","fuck","Fuck","FUCK","suck","Suck","SUCK","hoe","Hoe","HOE","piss","Piss","PISS","penis","Penis","PENIS","dick","Dick","DICK","cock","Cock","COCK","pussy","Pussy","PUSSY","sex","Sex","SEX","sexy","Sexy","SEXY","bastard","Bastard","BASTARD","bitch","Bitch","BITCH","gay","Gay","GAY","transsexual","Transsexual","TRANSSEXUAL","ass","Ass","ASS","milf","Milf","MILF","vaginal","Vaginal","VAGINAL","vagina","Vagina","VAGINA","boobs","Boobs","BOOBS","tits","Tits","TITS","fucker","Fucker","FUCKER","sucker","Sucker","SUCKER","pervert","Pervert","PERVERT"]
         for i in words:
             conn = req.urlopen("https://wdylike.appspot.com/?q="+i)
-            if conn.read().decode("utf-8") == "false":
+            if conn.read().decode("utf-8") == "false" and i not in awlist:
                 result.append(i)
             else:
                 str = ""
@@ -33,7 +34,8 @@ def filtered():
                     str = str + "*"
                 result.append(str)
         filtered_text = ' '.join(result)
-        resp = jsonify(filtered_text)
+        json_result = {"message":filtered_text}
+        resp = jsonify(json_result)
         return resp
     #    return render_template("Output.html",paragraph=filtered_text)
 
