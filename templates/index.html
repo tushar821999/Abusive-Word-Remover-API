@@ -11,16 +11,24 @@
   <title>Abusive Word Remover</title>
 
   <style>
-  body{
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
-    background-image: url("/static/back.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center top; 
+.navbar{margin-bottom:0px;
+    border-radius:0px;
+}
+body, html {
+
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("/static/back.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container{
@@ -136,39 +144,37 @@ function change(){
   var butn = document.getElementById("button")
   butn.value="Please Wait ..."
 }
-function myFunction() {
-    var butn = document.getElementById("button")
-    butn.value="Filer It"
-}
+
   </script>
 
 </head>
 
-<body onload="myFunction()">
-    
-   
-    
+<body>
+
+
+
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
-    
+
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="/Documentation">API Doc</a></li>
-        
+
         <li><a href="/Aboutus">About Developers</a></li>
-       
+
       </ul>
-     
+
     </div>
   </div>
 </nav>
+<div class="bg"><div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-ZwCZcZ211Z45Byz5-9.gif' border='0' alt='counter'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=ZwCZcZ211Z45Byz5'></script></div>
   <div class="container">
       <img src="/static/banned.png" class="avatar">
           <h1>Abusive Word Remover</h1>
@@ -178,12 +184,13 @@ function myFunction() {
               <input type="submit" name="" value="Filter  It" id="button" onclick="change()">
           </form>
             <center>
-            <a href="#">© 2018 Copyright : Awr.Pythonanywhere.com</a>
+                <p>Beta 1.0.0</p>
+            <a href="https://github.com/tushar821999/Abusive-Word-Remover-API">Want to contribute?</a><br><br>
           </center>
       </div>
 
-    
 
+</div>
 </body>
 
 <html>
