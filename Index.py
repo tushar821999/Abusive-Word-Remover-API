@@ -23,10 +23,10 @@ def filtered():
         print(paragraph)
         words = paragraph.split("%20")
         result = []
-        awlist = ["idiot","Idiot","IDIOT","whore","Whore","WHORE","fuck","Fuck","FUCK","suck","Suck","SUCK","hoe","Hoe","HOE","piss","Piss","PISS","penis","Penis","PENIS","dick","Dick","DICK","cock","Cock","COCK","pussy","Pussy","PUSSY","sex","Sex","SEX","sexy","Sexy","SEXY","bastard","Bastard","BASTARD","bitch","Bitch","BITCH","gay","Gay","GAY","transsexual","Transsexual","TRANSSEXUAL","ass","Ass","ASS","milf","Milf","MILF","vaginal","Vaginal","VAGINAL","vagina","Vagina","VAGINA","boobs","Boobs","BOOBS","tits","Tits","TITS","fucker","Fucker","FUCKER","sucker","Sucker","SUCKER","pervert","Pervert","PERVERT"]
+        awlist = ["idiot","whore","fuck","suck","hoe","piss","penis","dick","cock","pussy","sex","sexy","bastard","bitch","gay","transsexual","ass","milf","vaginal","vagina","boobs","tits","fucker","sucker","pervert"]
         for i in words:
             conn = req.urlopen("https://wdylike.appspot.com/?q="+i)
-            if conn.read().decode("utf-8") == "false" and i not in awlist:
+            if conn.read().decode("utf-8") == "false" and i.lower() not in awlist:
                 result.append(i)
             else:
                 str = ""
