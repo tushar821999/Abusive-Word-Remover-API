@@ -5,7 +5,7 @@ Abusive Word Remover is an API that provides an easy way to filter the abusive w
 
 ![screenshot 1](https://user-images.githubusercontent.com/30934449/49734593-c2f0c900-fcaa-11e8-9d95-f9d79323df78.png)
 
-# Useful Links ![live](https://user-images.githubusercontent.com/30934449/49734820-870a3380-fcab-11e8-8e95-fe80c3954ac6.png)
+# Useful Links ![live 1](https://user-images.githubusercontent.com/30934449/49734893-b620a500-fcab-11e8-931b-f2530ca0e0d1.png)
 Live : http://awr.pythonanywhere.com/ <br>
 Documentation : http://awr.pythonanywhere.com/Documentation
 
