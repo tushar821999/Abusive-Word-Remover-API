@@ -10,9 +10,11 @@
 Live : http://awr.pythonanywhere.com/ <br>
 Documentation : http://awr.pythonanywhere.com/Documentation
 
-# Developed By
+# Developers
 Tushar Verma <br>
+<img src="https://user-images.githubusercontent.com/30934449/49735364-106e3580-fcad-11e8-827e-46cc9cdc42cd.jpg" width="128" height="128">
 Rishabh Agarwal
+<img src="https://user-images.githubusercontent.com/30934449/49735411-2976e680-fcad-11e8-85a7-80ff4e08acc5.jpg" width="128" height="128">
 
 http://awr.pythonanywhere.com/Aboutus
 
