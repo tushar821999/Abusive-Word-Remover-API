@@ -16,7 +16,7 @@ Rishabh Agarwal
 
 http://awr.pythonanywhere.com/Aboutus
 
-# License
+# License ![driving-license](https://user-images.githubusercontent.com/30934449/49735210-9c339200-fcac-11e8-9a42-4f215165648f.png)<br>
 <b><u>GNU General Public License v3.0</u></b> <br><br>
 Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
 
