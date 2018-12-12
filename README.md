@@ -6,7 +6,7 @@
 
 ![screenshot 1](https://user-images.githubusercontent.com/30934449/49734593-c2f0c900-fcaa-11e8-9d95-f9d79323df78.png)
 
-# Documentaion ![guide-book](https://user-images.githubusercontent.com/30934449/49735691-f54ff580-fcad-11e8-959f-717d72a55253.png)
+# Documentation ![guide-book](https://user-images.githubusercontent.com/30934449/49735691-f54ff580-fcad-11e8-959f-717d72a55253.png)
 Documentation : http://awr.pythonanywhere.com/Documentation
 
 # Developers
