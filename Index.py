@@ -1,5 +1,6 @@
 from flask import *
 import urllib.request as req
+import re
 
 
 app = Flask(__name__)
@@ -25,8 +26,10 @@ def filtered():
         result = []
         awlist = ["idiot","whore","fuck","suck","hoe","piss","penis","dick","cock","pussy","sex","sexy","bastard","bitch","gay","transsexual","ass","milf","vaginal","vagina","boobs","tits","fucker","sucker","pervert"]
         for i in words:
+            i=re.sub('[^a-zA-Z]',"",i)
+            i=i.lower()
             conn = req.urlopen("https://wdylike.appspot.com/?q="+i)
-            if conn.read().decode("utf-8") == "false" and i.lower() not in awlist:
+            if conn.read().decode("utf-8") == "false" and i not in awlist:
                 result.append(i)
             else:
                 str = ""
