@@ -7,7 +7,7 @@
 ![screenshot 1](https://user-images.githubusercontent.com/30934449/49734593-c2f0c900-fcaa-11e8-9d95-f9d79323df78.png)
 
 # Documentation ![guide-book](https://user-images.githubusercontent.com/30934449/49735691-f54ff580-fcad-11e8-959f-717d72a55253.png)
-Documentation : http://awr.pythonanywhere.com/Documentation
+Documentation : http://awrapi.pythonanywhere.com/Documentation
 
 # Developers
 <img src="https://user-images.githubusercontent.com/30934449/49735364-106e3580-fcad-11e8-827e-46cc9cdc42cd.jpg" width="128" height="128"><br>
@@ -15,7 +15,7 @@ Tushar Verma<br>
 <img src="https://user-images.githubusercontent.com/30934449/49735411-2976e680-fcad-11e8-85a7-80ff4e08acc5.jpg" width="128" height="128"><br>
 Rishabh Agarwal
 
-http://awr.pythonanywhere.com/Aboutus
+http://awrapi.pythonanywhere.com/Aboutus
 
 # License ![driving-license](https://user-images.githubusercontent.com/30934449/49735210-9c339200-fcac-11e8-9a42-4f215165648f.png)<br>
 <b><u>GNU General Public License v3.0</u></b> <br><br>
